@@ -1,0 +1,42 @@
+{
+    "manufacturer": "ymkn",
+    "keyboard_name": "MonakaPad",
+    "maintainer": "ymkn",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "bootmagic": {
+        "enabled": true,
+        "matrix": [0, 0]
+    },
+    "matrix_pins": {
+        "cols": ["GP6", "GP7", "GP0"],
+        "rows": ["GP28", "GP29"]
+    },
+    "processor": "RP2040",
+    "url": "https://github.com/ymkn/MonakaPad",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x2AF2",
+        "vid": "0x1209"
+    },
+    "layouts": {
+        "LAYOUT_all": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+            ]
+        }
+    }
+}
